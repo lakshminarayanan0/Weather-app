@@ -1,0 +1,83 @@
+
+body{
+ background: linear-gradient(45deg,rgb(8, 83, 69),rgb(19, 124, 19),rgb(73, 116, 9),rgb(113, 205, 20));
+}
+.App{
+    width:100% ;
+    min-height:100vh ;
+    background:linear-gradient(-55deg,rgb(18, 18, 94),rgb(44, 6, 63),rgb(7, 42, 55),rgb(36, 36, 39)) ;
+}
+.header{
+    background-color: none;
+    border-bottom:2px solid ghostwhite ;
+}
+.title{
+    font-family: arial;
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: azure;
+}
+.icon{
+    font-size: 50px;
+    /* margin-bottom: 7px; */
+}
+.searchArea{
+    border-bottom: 2px solid ghostwhite;
+}
+.main{
+    min-height: 76vh;
+}
+.form{
+    max-width: 400px;
+    min-width: 200px;
+}
+.footer{
+    
+   
+   max-height: 8vh;
+   min-height: 5vh;
+
+   
+    border-top: 2px solid ghostwhite;
+}
+.footerContent{
+    margin-top: 0px;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.error{
+    min-height: 70vh;
+}
+.input{
+    background-color: none;
+}
+.input::placeholder{
+    color: ghostwhite;
+}
+.btn:hover{
+    background-color: ghostwhite;
+}
+.weather{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.img{
+    width: 30%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+   
+}
+.img img{
+    width: 30%;
+    height: 100%;
+    font-size: 100px;
+   
+}
+.container{
+
+    border-radius:10px;
+    margin-top: 4px;
+}
