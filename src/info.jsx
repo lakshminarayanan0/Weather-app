@@ -22,12 +22,12 @@ function Info({ humidity, tempC, tempF, windMPH, windKPH, isDay }) {
       <div className="row">
         <div className="col-sm-6">
           <h3><FaWind /> Windspeed</h3>
-          <h5>{windSpeed}</h5>
-          <button onClick={toggleWindSpeedUnit} 
+          <h5>{windSpeed}  <button onClick={toggleWindSpeedUnit} 
           className='btn btn-outline-light'
           >
             <FiRepeat/>
-          </button>
+          </button></h5>
+         
         </div>
         <div className="col-sm-6">
           <h3><FiDroplet /> Humidity</h3>
@@ -37,10 +37,10 @@ function Info({ humidity, tempC, tempF, windMPH, windKPH, isDay }) {
       <div className="row">
         <div className="col-sm-6">
           <h3><FaTemperatureHigh /> Temperature</h3>
-          <h5>{temperature}</h5>
-          <button
+          <h5>{temperature}  <button
           className='btn btn-outline-light'
-           onClick={toggleTemperatureUnit}><FiRepeat/></button>
+           onClick={toggleTemperatureUnit}><FiRepeat/></button></h5>
+         
          
         </div>
         <div className="col-sm-6">

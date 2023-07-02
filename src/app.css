@@ -8,8 +8,9 @@ body{
     background:linear-gradient(-55deg,rgb(18, 18, 94),rgb(44, 6, 63),rgb(7, 42, 55),rgb(36, 36, 39)) ;
 }
 .header{
-    background-color: none;
+    background:none ;
     border-bottom:2px solid ghostwhite ;
+
 }
 .title{
     font-family: arial;
@@ -25,7 +26,7 @@ body{
     border-bottom: 2px solid ghostwhite;
 }
 .main{
-    min-height: 76vh;
+ 
 }
 .form{
     max-width: 400px;

@@ -28,8 +28,8 @@ function Location({ lat, lon, timezone, region, country, name }) {
     <div className='container-fluid fw-bold text-light p-3'>
       <div className="row">
         <div className="details col-sm-12 col-md-6 text-left d-flex justify-content-center align-items-start flex-column ">
-          <span>Latitude: {lat}</span>
-          <span>Longitude: {lon}</span>
+          <span>Latitude: {lat}°</span>
+          <span>Longitude: {lon}°</span>
           <span>Location: {name}</span>
           <span>Region: {region}</span>
           <span>Country: {country}</span>
